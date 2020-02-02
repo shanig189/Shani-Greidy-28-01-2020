@@ -1,0 +1,116 @@
+.app_ctn{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+	top: 0;
+	left: 0;
+	min-height: 100%;
+	height: inherit;
+    background-image: url('./assets/images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+@media only screen and (max-width: 1224px) {
+	.search_ctn{
+		width: 50%;
+	}
+
+	.favorite_ctn{
+		width: 24%;
+	}
+
+}
+
+@media only screen and (max-width: 800px) {	
+	.favorite_ctn{
+		width: 32%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.search_ctn{
+		width: 60%;
+	}
+	
+	.favorite_ctn{
+		width: 29%;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.search_ctn{
+		width: 80% !important;
+		margin-bottom: 10%;
+	}
+
+	.cityWeather_ctn{
+		height: auto;
+	}
+
+	.currentWeather_addToFavorites_ctn{
+		flex-flow: column;
+	}
+
+	.currentWeather_ctn, .addToFavorites_ctn{
+		width: 100%;
+		justify-content: center;
+	}
+
+	.currentWeather_ctn{
+		margin: 20px auto;
+		margin-left: -20px;
+	}
+
+	.fiveDaysWeather_ctn, .favorites_ctn{
+		justify-content: space-evenly;
+	}
+
+	.dayWeather_ctn{
+		width: 40%;
+		margin-bottom: 20px;
+	}
+
+	.favorite_ctn{
+		width: 48%;
+		margin-right: 5px;
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.home_ctn{
+		margin: 0 3%;
+	}
+
+	.search_ctn{
+		width: 75%;
+	}
+
+	.fiveDaysWeather_ctn, .favorites_ctn{
+		justify-content: space-evenly;
+	}
+}
+
+@media only screen and (max-width: 380px) {
+	.search_ctn{
+		width: 98% !important;
+		margin-left: -1px;
+	}
+
+	.nav_ctn {
+		width: 10%;
+	}
+
+	.header_headline {
+		font-size: 1.4em;
+		width: 90%;
+	}
+
+	.css-21xts8-ToastContainer, .css-9z2we-ToastElement{
+		width: 100%;
+	}
+}

@@ -1,0 +1,14 @@
+.header_ctn{
+    width: 100%;
+    padding: 0 2%;
+    background: #2f5275;
+    border-bottom: solid;
+    display: flex;
+}
+
+.header_headline{
+    font-size: 1.5em;
+    width: 50%;
+    color: white;
+    margin-top: 13px;
+}

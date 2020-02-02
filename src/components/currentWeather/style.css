@@ -1,0 +1,24 @@
+.currentWeather_ctn{
+    width: 50%;
+    display: flex;
+    margin-top: 13px;
+    margin-left: -10px;
+}
+
+.currentWeather_img{
+    width: 150px;
+    height: 90px;
+}
+
+.currentWeather_details_ctn{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.currentWeather_details_ctn>span{
+    font-size: 22px;
+}
+
+.currentWeather_details_ctn>div{
+    font-size: 16px;
+}

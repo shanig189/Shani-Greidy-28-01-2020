@@ -1,0 +1,36 @@
+.search_ctn{
+    width: 40%;
+    margin: 3% auto 6% auto;
+}
+
+.input-field{
+    margin-bottom: 0;
+}
+
+.input-field.autocomplete{
+    float: none !important;
+}
+
+input[type="text"]{
+    border-bottom: 1px solid #333;
+}
+
+.search_input_err_ctn{
+    position: relative;
+}
+
+.search_icon{
+    color: #333;
+}
+
+.search_input_err{
+    font-size: 11px;
+    color: red;
+    position: absolute;
+    top: -6px;
+    left: 54px;
+}
+
+::placeholder { 
+    color: #9e9e9e !important;
+}

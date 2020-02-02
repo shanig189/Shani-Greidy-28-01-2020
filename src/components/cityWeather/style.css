@@ -1,0 +1,18 @@
+.cityWeather_ctn{
+    width: 100%;
+    padding: 0 3%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border: 2px solid #333;
+    border-radius: 20px;
+    height: 430px;    
+}
+
+.currentWeather_addToFavorites_ctn{
+    display: flex;
+}
+
+.cityWeather_headline{
+    margin: 40px auto 50px auto;
+    text-align: center;
+}
