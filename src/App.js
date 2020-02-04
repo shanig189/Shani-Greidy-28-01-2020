@@ -12,13 +12,13 @@ import './App.css'
 const store = createStore(rootReducer);
 const history = createBrowserHistory();
 
+// autoDismiss
+// autoDismissTimeout={6000}
 export default () => {
     return (
         <Provider store={store}>
             <Router history={history}>
                 <ToastProvider
-                    autoDismiss
-                    autoDismissTimeout={6000}
                     placement="top-center"
                 >
                     <div className="app_ctn">

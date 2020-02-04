@@ -1,6 +1,6 @@
 const proxyUrl = 'https://cors-anywhere.herokuapp.com/'; // for cors problem
 const url = `${proxyUrl}http://dataservice.accuweather.com`;
-const apiKey = 'n5QUtuVLc26EVzwlBuH04eFvZ4xUIxDj';
+const apiKey = 'LpR5wMyVyJWCKfSRlnzMaLGdQadcujxe';
 const errorMessage = 'Server Error.';
 
 const getReturnedData = (data) => {

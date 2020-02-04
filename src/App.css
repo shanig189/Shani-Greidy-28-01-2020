@@ -111,6 +111,6 @@
 	}
 
 	.css-21xts8-ToastContainer, .css-9z2we-ToastElement{
-		width: 100%;
+		width: 100% !important;
 	}
 }
